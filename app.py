@@ -9,7 +9,7 @@ st.set_page_config(
     }   
 )
 
-st.write("<h2 style='color:#F6464C;font-size:33px;'>Turn Videos into Stunning GIFs Instantly.</h2>",unsafe_allow_html=True)
+st.write("<h2 style='color:#F6464C;'>Turn Videos into Stunning GIFs Instantly.</h2>",unsafe_allow_html=True)
 
 file=st.file_uploader("Upload Video",type=["mp4"])
 
